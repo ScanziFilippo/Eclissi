@@ -28,7 +28,7 @@ public class Camera : MonoBehaviour
             currentY = Mathf.Clamp(currentY, -80f, 80f);
 
             // Calcola la nuova posizione della camera attorno all'aereo
-            Vector3 direction = new Vector3(0, 16, -distance);
+            Vector3 direction = new Vector3(0, 0, -distance);
             Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
             Vector3 position = rotation * direction + target.position;
 

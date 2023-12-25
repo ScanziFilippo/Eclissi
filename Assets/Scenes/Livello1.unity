@@ -809,12 +809,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TESTO STORIA INSERIRER DJIFDSFHUBJDNSIUFUY GSDYU FGDSU FYUDSGFUYSDGFUYDSG
-    FUYSGYDFERIRER DJIFDSFHUBJDNSIUFUY GSDYU FGDSU FYUDSGFUYSDGFUYDSG FUYSGYDFERIRER
-    DJIFDSFHUBJDNSIUFUY GSDYU FGDSU FYUDSGFUYSDGFUYDSG FUYSGYDFERIRER DJIFDSFHUBJDNSIUFUY
-    GSDYU FGDSU FYUDSGFUYSDGFUYDSG FUYSGYDFERIRER DJIFDSFHUBJDNSIUFUY GSDYU FGDSU
-    FYUDSGFUYSDGFUYDSG FUYSGYDFERIRER DJIFDSFHUBJDNSIUFUY GSDYU FGDSU FYUDSGFUYSDGFUYDSG
-    FUYSGYDF
+  m_text: "160 days ago, the sun started to heat up very fast. Inexplicably, every
+    planet of the solar system changed the rotation around their axes to face the
+    sun, similarly how the moon does to the earth. \r\n\r\nThe atmospheres suffered
+    severe damages: on the part of the planets lighted by our star, the radiation
+    and the heat became so high that no life can live there. \r\nOn the dark side,
+    the temperature is almost at absolute zero.\r\nThe survivors have adapted to
+    live on the border between the light and the shadow.\r\n\r\nYou are a researcher
+    in a base on Jupiter. Connections to other bases and planets haven't worked since
+    the accident.  Your comrades keep disappearing.\r\nResources are scarce. No one
+    will come to help you. \r\n\r\nThe only chance you have will be the eclipse that
+    will occur today. \r\nThe shadow that the moon will create, will have an optimal
+    temperature to let you fly in it.\r\nStaying in this zone till the end will take
+    you to the other part of the planet, where another base is located. This is the
+    only habitable place where there is a spaceship capable of taking you outside
+    of Jupiter, hopefully with enough fuel to reach the Earth.\n\r\nStay safe, and
+    good luck.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -841,13 +851,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 31.2
+  m_fontSizeBase: 31.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
