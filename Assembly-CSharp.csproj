@@ -57,6 +57,8 @@
     <Compile Include="Assets\movimentoCorpi.cs" />
     <Compile Include="Assets\Camera.cs" />
     <Compile Include="Assets\Menu.cs" />
+    <Compile Include="Assets\MovimentoPersonaggio.cs" />
+    <Compile Include="Assets\CameraInterna.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

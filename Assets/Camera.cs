@@ -9,12 +9,13 @@ public class Camera : MonoBehaviour
     public float distance = 5.0f;  // Distanza iniziale della camera dall'aereo
     public float sensitivity = 2.0f;  // Sensibilità del movimento della camera
 
-    private float currentX = 90.0f;
+    private float currentX = 270.0f;
     private float currentY = 0.0f;
 
     private void Start()
     {
         Cursor.visible = false;
+        this.enabled = false;
     }
     void Update()
     {
@@ -28,7 +29,7 @@ public class Camera : MonoBehaviour
             currentY = Mathf.Clamp(currentY, -80f, 80f);
 
             // Calcola la nuova posizione della camera attorno all'aereo
-            Vector3 direction = new Vector3(0, 0, -distance);
+            Vector3 direction = new Vector3(0, 1.6f, -distance);
             Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
             Vector3 position = rotation * direction + target.position;
 
